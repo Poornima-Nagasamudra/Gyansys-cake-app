@@ -32,7 +32,7 @@ const addressSchema = new Schema({
         type: String,
         required: true
     }
-} , {timestamps: true})
+} , {timestamps:  true})
 
 const Address = mongoose.model('Address', addressSchema)
 
